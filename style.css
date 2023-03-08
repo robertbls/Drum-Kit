@@ -1,16 +1,36 @@
-html {
-    font-size: 10px;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-    background-position: center ;
-    background-size: cover;
-    background-repeat: no-repeat, no-repeat;
-}
+/*html {*/
+/*    font-size: 10px;*/
+/*    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat, no-repeat;*/
+/*}*/
 
 body,html {
-    margin: 0;
-    padding: 0;
+    margin: 20px;
     font-family: sans-serif;
+    background: #24292E;
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat, no-repeat;*/
 }
+
+h1 {
+    font-size: 100px;
+    color: #ffc600;
+    text-align: center;
+    text-shadow: 0 0 .5rem #ffc600;
+}
+
+/*ul {*/
+/*    font-size: 40px;*/
+/*    color: #ffc600;*/
+/*    text-align: left;*/
+/*    text-shadow: 0 0 .5rem #ffc600;*/
+/*    margin-bottom: -10px;*/
+/*    padding-bottom: -10px;*/
+/*}*/
+
 
 .keys {
     display: flex;
@@ -18,12 +38,14 @@ body,html {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
+    padding-top: 0px;
 
 }
 
 .key {
-    border: .4rem solid darkred;
-    border-radius: .5rem;
+    border: .4rem solid #ffc600;
+    border-radius: 5rem;
     margin: 1rem;
     font-size: 5.5rem;
     padding: 1rem .5rem;
@@ -31,8 +53,8 @@ body,html {
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    background: black;
+    text-shadow: 0 0 .5rem whitesmoke;
 }
 
 .playing {

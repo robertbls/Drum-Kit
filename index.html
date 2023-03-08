@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<h1> The Drum Kit</h1>
 
+<!--<ul>-->
+<!--    <li>Make sure your sound is ON</li>-->
+<!--    <li>press a key on your keyboard</li>-->
+<!--    <li>and have FUN</li>-->
+<!--</ul>-->
 
 <div class="keys">
     <div data-key="65" class="key">
@@ -59,8 +65,6 @@
 <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
-
-
 function playSound(e) {
     const  audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const  key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
